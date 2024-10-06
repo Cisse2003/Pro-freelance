@@ -1,15 +1,113 @@
 <!DOCTYPE html>
-<hmt lang="fr">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <title>Pro Freelance</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil - Pro Freelance</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js" ></script>
 </head>
 <body>
-    <header>
-        <h1>Bienvenue sur Pro Freelance</h1>
-    </header>
-    <main>
 
-    </main>
+    <!-- En-tête du site -->
+    <header>
+        <div class="container">
+            <h1>Pro Freelance</h1>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#categories">Catégories</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="login.html">Connexion</a>
+                <a href="signup.html">Inscription</a>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Chercher des freelances ou des services...">
+                <button type="button">Rechercher</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bandeau principal -->
+    <section class="hero">
+        <div class="container">
+            <h2>Trouvez les meilleurs freelances pour vos projets</h2>
+            <a href="find-freelancer.html" class="cta-button">Trouver un freelance</a>
+            <a href="become-freelancer.html" class="cta-button">Devenir freelance</a>
+        </div>
+    </section>
+
+    <!-- Catégories de services -->
+    <section id="categories">
+        <div class="container">
+            <h2>Catégories de Services</h2>
+            <div class="category-list">
+                <div class="category">
+                    <img src="images/design.jpg" alt="Design">
+                    <h3>Design</h3>
+                </div>
+                <div class="category">
+                    <img src="images/writing.jpg" alt="Rédaction">
+                    <h3>Rédaction</h3>
+                </div>
+                <div class="category">
+                    <img src="images/web-development.jpg" alt="Développement Web">
+                    <h3>Développement Web</h3>
+                </div>
+                <div class="category">
+                    <img src="images/marketing.jpg" alt="Marketing">
+                    <h3>Marketing</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Freelances en vedette -->
+    <section id="freelances">
+        <div class="container">
+            <h2>Freelances en Vedette</h2>
+            <div class="freelance-list">
+                <div class="freelance">
+                    <h3>Jean Dupont</h3>
+                    <p>Note: ★★★★☆</p>
+                    <p>Avis: "Un excellent travail!"</p>
+                </div>
+                <div class="freelance">
+                    <h3>Marie Curie</h3>
+                    <p>Note: ★★★★★</p>
+                    <p>Avis: "Rapide et efficace!"</p>
+                </div>
+                <div class="freelance">
+                    <h3>Albert Camus</h3>
+                    <p>Note: ★★★★☆</p>
+                    <p>Avis: "Très satisfait du résultat!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avis clients -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>Avis Clients</h2>
+            <p>"Pro Freelance m'a aidé à trouver un designer incroyable pour mon projet. Très satisfait!" - Client 1</p>
+            <p>"Une plateforme facile à utiliser et pleine de talents!" - Client 2</p>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pro Freelance - Tous droits réservés.</p>
+            <p><a href="mentions_legales.html">Mentions légales</a></p>
+        </div>
+    </footer>
+
 </body>
-</hmt> 
+</html>

@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* En-tête */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Champs de recherche */
+.search-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.search-container input {
+    padding: 10px;
+    width: 250px;
+}
+
+.search-container button {
+    padding: 10px;
+}
+
+/* Bandeau principal */
+.hero {
+    background: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e74c3c;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 20px 10px;
+}
+
+/* Catégories */
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category {
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+}
+
+/* Freelances en vedette */
+.freelance-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.freelance {
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+}
+
+/* Pied de page */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
