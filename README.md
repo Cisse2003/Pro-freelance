@@ -12,14 +12,14 @@ Système de paiement sécurisé : Garantit des transactions fiables et sécuris�
 📁 Technologies utilisées
 Ce projet utilise des technologies modernes telles que :
 
-Frontend : React.js
-Backend : Node.js avec Express
-Base de données : MongoDB
+Frontend : JS
+Backend : PHP
+Base de données : Mysql
 Services de paiement : Stripe et PayPal
 🔗 Contribuer
 Je suis toujours ouvert aux contributions et aux retours. Si tu es intéressé à contribuer à ce projet ou si tu souhaites en savoir plus, n'hésite pas à ouvrir une issue ou à me contacter directement.
 
 📫 Me contacter
-Pour toute question ou demande, tu peux me contacter à [ton.email@example.com].
+Pour toute question ou demande, tu peux me contacter à cissepape678@gmail.com.
 
 Merci de visiter mon dépôt ! N'hésite pas à explorer le code et à laisser des commentaires.
